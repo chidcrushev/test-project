@@ -122,7 +122,7 @@ const PayComponent = ({ empId, month, year, employeeDetails: initialEmployeeDeta
        <Card.Body>
         <Card.Title>{isDashboard ? 'Pay' : currentMonth}</Card.Title>
         <div className="d-flex justify-content-between align-items-center">
-            <span>Gross pay</span>
+            <span className="gross-pay">Gross pay</span>
             <div className="d-flex align-items-center">
                 <span className="salary-mask">
                     ₹ {masked ? '*******' : salaryDetails.grossEarning}
