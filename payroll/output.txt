@@ -1,5 +1,0 @@
-yarn run v1.22.22
-$ react-scripts test
-
-
-Done in 69.83s.
